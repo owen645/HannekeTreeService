@@ -1,0 +1,7 @@
+{
+  "name": "Hanneke Tree Service",
+  "description": "Premium tree care services in St. Louis since 2005. Specializing in tree removal, trimming, stump grinding, and mulching.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
