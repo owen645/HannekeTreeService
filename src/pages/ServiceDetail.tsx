@@ -21,7 +21,7 @@ export default function ServiceDetail() {
       <section className="relative h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src={service.slug === 'stump-grinding' ? "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png" : "https://hanneketreeservice.com/wp-content/uploads/2023/12/treeremoval.png"} 
+            src={service.heroImage} 
             alt={service.title} 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -80,8 +80,8 @@ export default function ServiceDetail() {
                   We use professional-grade machinery specifically designed for {service.title.toLowerCase()}. Our equipment is regularly maintained to ensure peak performance and safety. Every job site is managed by an experienced foreman to ensure all protocols are followed.
                 </p>
                 <img 
-                  src="https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-12.png" 
-                  alt="Equipment" 
+                  src={service.image} 
+                  alt={`${service.title} equipment`} 
                   className="w-full h-80 object-cover rounded-sm shadow-xl"
                   referrerPolicy="no-referrer"
                 />

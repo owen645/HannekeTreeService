@@ -22,6 +22,8 @@ export const SERVICES = [
     icon: "TreePine",
     description: "Safe and professional removal of hazardous or unwanted trees of any size.",
     shortDesc: "Dramatic tree falling shot (safe, professional)",
+    image: "https://hanneketreeservice.com/wp-content/uploads/2023/12/treeremoval.png",
+    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg",
     features: ["Emergency Storm Response", "Fully Insured", "Precision Felling", "Complete Cleanup"]
   },
   {
@@ -31,6 +33,8 @@ export const SERVICES = [
     icon: "Scissors",
     description: "Expert pruning to enhance tree health, safety, and aesthetic appeal.",
     shortDesc: "Arborist in tree with professional gear",
+    image: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-12.png",
+    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-15.png",
     features: ["Crown Thinning", "Deadwooding", "Structural Pruning", "Safety Clearances"]
   },
   {
@@ -40,6 +44,8 @@ export const SERVICES = [
     icon: "Zap",
     description: "Eliminate hazards and reclaim your yard with precision grinding technology.",
     shortDesc: "Action shot of stump grinder in operation",
+    image: "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png",
+    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png",
     features: ["Deep Grinding", "Pest Prevention", "Surface Leveling", "Root Removal"]
   },
   {
@@ -49,6 +55,8 @@ export const SERVICES = [
     icon: "Leaf",
     description: "Premium mulch application for moisture retention and landscape beauty.",
     shortDesc: "Rich mulch being spread, fresh and vibrant",
+    image: "https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png",
+    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-19.png",
     features: ["Moisture Retention", "Weed Suppression", "Soil Health", "Aesthetic Enhancement"]
   }
 ];

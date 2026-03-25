@@ -58,7 +58,7 @@ export default function AboutPage() {
                 <img 
                   src="https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg" 
                   alt="Matt Hanneke" 
-                  className="rounded-sm shadow-2xl border-8 border-white"
+                  className="w-full h-[500px] object-cover object-top rounded-sm shadow-2xl border-8 border-white"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-steel-black text-white p-8 rounded-sm shadow-2xl">

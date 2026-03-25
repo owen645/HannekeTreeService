@@ -45,7 +45,7 @@ export default function ServicesPage() {
               >
                 <div className="h-64 overflow-hidden relative">
                   <img 
-                    src={service.slug === 'stump-grinding' ? "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png" : "https://hanneketreeservice.com/wp-content/uploads/2023/12/treeremoval.png"} 
+                    src={service.image} 
                     alt={service.title} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"

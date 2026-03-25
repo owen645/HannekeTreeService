@@ -142,7 +142,7 @@ export const ServicesPreview = () => {
               {/* Hover Background Image Effect */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none">
                 <img 
-                  src={service.slug === 'stump-grinding' ? "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png" : "https://hanneketreeservice.com/wp-content/uploads/2023/12/treeremoval.png"} 
+                  src={service.image} 
                   alt="" 
                   className="w-full h-full object-cover grayscale"
                 />
@@ -201,7 +201,7 @@ export const AboutPreview = () => {
               <img 
                 src="https://hanneketreeservice.com/wp-content/uploads/2023/04/DSC04122-scaled.jpeg" 
                 alt="Team at work" 
-                className="w-full aspect-[3/4] object-cover"
+                className="w-full h-[480px] object-cover object-top"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -246,8 +246,8 @@ export const GalleryPreview = () => {
               key={i}
               whileHover={{ scale: 1.02 }}
               className={cn(
-                "relative overflow-hidden group rounded-sm aspect-square",
-                img.size === 'large' && "md:col-span-2 md:row-span-2 aspect-auto"
+                "relative overflow-hidden group rounded-sm",
+                img.size === 'large' ? "md:col-span-2 md:row-span-2 min-h-[400px]" : "aspect-square"
               )}
             >
               <img 
