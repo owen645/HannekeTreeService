@@ -22,8 +22,8 @@ export const SERVICES = [
     icon: "TreePine",
     description: "Safe and professional removal of hazardous or unwanted trees of any size.",
     shortDesc: "Dramatic tree falling shot (safe, professional)",
-    image: "https://hanneketreeservice.com/wp-content/uploads/2023/12/treeremoval.png",
-    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg",
+    image: "/images/tree-removal-crane.png",
+    heroImage: "/images/tree-removal-stihl.png",
     features: ["Emergency Storm Response", "Fully Insured", "Precision Felling", "Complete Cleanup"]
   },
   {

@@ -199,7 +199,7 @@ export const AboutPreview = () => {
           <div className="lg:w-2/5 relative">
             <div className="relative z-10 rounded-sm overflow-hidden shadow-2xl border-8 border-white">
               <img 
-                src="https://hanneketreeservice.com/wp-content/uploads/2023/04/DSC04122-scaled.jpeg" 
+                src="/images/tree-removal-stihl.png" 
                 alt="Team at work" 
                 className="w-full h-[480px] object-cover object-top"
                 referrerPolicy="no-referrer"
@@ -220,11 +220,11 @@ export const AboutPreview = () => {
 
 export const GalleryPreview = () => {
   const images = [
-    { src: "https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg", size: "large", title: "Tree Removal" },
-    { src: "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png", size: "medium", title: "Stump Grinding" },
-    { src: "https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png", size: "small", title: "Mulching" },
-    { src: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-19.png", size: "small", title: "Emergency Service" },
-    { src: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-15.png", size: "medium", title: "Professional Care" },
+    { src: "/images/tree-removal-crane.png", size: "large", title: "Tree Removal" },
+    { src: "/images/tree-removal-log.png", size: "medium", title: "Log Processing" },
+    { src: "https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png", size: "small", title: "Stump Grinding" },
+    { src: "/images/tree-removal-trunk.png", size: "small", title: "Precision Cutting" },
+    { src: "/images/tree-removal-truck.png", size: "medium", title: "Equipment" },
   ];
 
   return (

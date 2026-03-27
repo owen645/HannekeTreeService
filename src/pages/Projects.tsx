@@ -4,12 +4,13 @@ import { Filter, Maximize2, X } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const PROJECTS = [
-  { id: 1, category: 'tree-removal', title: 'Oak Removal', location: 'Kirkwood', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg' },
-  { id: 2, category: 'tree-trimming', title: 'Crown Thinning', location: 'Webster Groves', src: 'https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-12.png' },
+  { id: 1, category: 'tree-removal', title: 'Crane Removal', location: 'Kirkwood', src: '/images/tree-removal-crane.png' },
+  { id: 2, category: 'tree-removal', title: 'Large Oak Removal', location: 'Webster Groves', src: '/images/tree-removal-log.png' },
   { id: 3, category: 'stump-grinding', title: 'Stump Elimination', location: 'Ladue', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png' },
   { id: 4, category: 'mulching', title: 'Spring Mulching', location: 'Affton', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png' },
-  { id: 5, category: 'tree-removal', title: 'Storm Cleanup', location: 'Fenton', src: 'https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-11.png' },
-  { id: 6, category: 'tree-trimming', title: 'Hazardous Limb Removal', location: 'Ballwin', src: 'https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-10.png' },
+  { id: 5, category: 'tree-removal', title: 'Precision Cutting', location: 'Fenton', src: '/images/tree-removal-trunk.png' },
+  { id: 6, category: 'tree-removal', title: 'Log Transport', location: 'Ballwin', src: '/images/tree-removal-truck.png' },
+  { id: 7, category: 'tree-trimming', title: 'Expert Chainsaw Work', location: 'St. Louis', src: '/images/tree-removal-stihl.png' },
 ];
 
 export default function ProjectsPage() {

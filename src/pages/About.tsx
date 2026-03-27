@@ -15,10 +15,9 @@ export default function AboutPage() {
       <section className="relative h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://hanneketreeservice.com/wp-content/uploads/2023/04/DSC04122-scaled.jpeg" 
+            src="/images/tree-removal-crane.png" 
             alt="About Hanneke" 
             className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-steel-black/70" />
         </div>
@@ -56,10 +55,9 @@ export default function AboutPage() {
             <div className="lg:w-1/2">
               <div className="relative">
                 <img 
-                  src="https://hanneketreeservice.com/wp-content/uploads/2023/04/IMG_2992-scaled.jpeg" 
+                  src="/images/tree-removal-log.png" 
                   alt="Matt Hanneke" 
                   className="w-full h-[500px] object-cover object-top rounded-sm shadow-2xl border-8 border-white"
-                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-steel-black text-white p-8 rounded-sm shadow-2xl">
                   <p className="font-heading text-3xl text-rust-orange">MATT HANNEKE</p>
