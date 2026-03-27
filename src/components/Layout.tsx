@@ -29,8 +29,8 @@ export const Navbar = () => {
 
   return (
     <nav className={cn(
-      "fixed top-0 left-0 w-full z-50 transition-all duration-500 wood-texture",
-      isScrolled ? "bg-steel-black/95 py-3 shadow-2xl border-b border-rust-orange/20" : "bg-transparent py-6"
+      "fixed top-0 left-0 w-full z-50 transition-all duration-500",
+      isScrolled ? "bg-steel-black py-3 shadow-2xl border-b border-rust-orange/30" : "bg-steel-black/80 backdrop-blur-sm py-5"
     )}>
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
