@@ -55,8 +55,8 @@ export const SERVICES = [
     icon: "Leaf",
     description: "Premium mulch application for moisture retention and landscape beauty.",
     shortDesc: "Rich mulch being spread, fresh and vibrant",
-    image: "https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png",
-    heroImage: "https://hanneketreeservice.com/wp-content/uploads/2024/01/Untitled-design-19.png",
+    image: "/images/mulching.jpg",
+    heroImage: "/images/mulching.jpg",
     features: ["Moisture Retention", "Weed Suppression", "Soil Health", "Aesthetic Enhancement"]
   }
 ];

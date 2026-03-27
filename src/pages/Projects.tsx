@@ -7,7 +7,7 @@ const PROJECTS = [
   { id: 1, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-crane.png' },
   { id: 2, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-log.png' },
   { id: 3, category: 'stump-grinding', title: 'Stump Grinding', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png' },
-  { id: 4, category: 'mulching', title: 'Mulching', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png' },
+  { id: 4, category: 'mulching', title: 'Mulching', src: '/images/mulching.jpg' },
   { id: 5, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-trunk.png' },
   { id: 6, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-truck.png' },
   { id: 7, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/tree-removal-stihl.png' },
