@@ -73,5 +73,17 @@ export const FAQS = [
   {
     question: "Do you offer emergency services?",
     answer: "Absolutely. We provide 24/7 emergency storm response for fallen trees or hazardous limbs that threaten your home or safety."
+  },
+  {
+    question: "What payment methods are accepted?",
+    answer: "We accept cash, check, and credit cards. Credit card payments will be charged a 3% processing fee."
+  },
+  {
+    question: "Do you offer discounts?",
+    answer: "Yes! We offer discounts for veterans, seniors, and first responders. We also offer discounted rates on jobs booked during the winter months."
+  },
+  {
+    question: "Does the price include cleanup?",
+    answer: "Yes. The price includes both removal and full cleanup of the job site."
   }
 ];
