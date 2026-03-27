@@ -4,13 +4,13 @@ import { Filter, Maximize2, X } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const PROJECTS = [
-  { id: 1, category: 'tree-removal', title: 'Crane Removal', location: 'Kirkwood', src: '/images/tree-removal-crane.png' },
-  { id: 2, category: 'tree-removal', title: 'Large Oak Removal', location: 'Webster Groves', src: '/images/tree-removal-log.png' },
-  { id: 3, category: 'stump-grinding', title: 'Stump Elimination', location: 'Ladue', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png' },
-  { id: 4, category: 'mulching', title: 'Spring Mulching', location: 'Affton', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png' },
-  { id: 5, category: 'tree-removal', title: 'Precision Cutting', location: 'Fenton', src: '/images/tree-removal-trunk.png' },
-  { id: 6, category: 'tree-removal', title: 'Log Transport', location: 'Ballwin', src: '/images/tree-removal-truck.png' },
-  { id: 7, category: 'tree-trimming', title: 'Expert Chainsaw Work', location: 'St. Louis', src: '/images/tree-removal-stihl.png' },
+  { id: 1, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-crane.png' },
+  { id: 2, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-log.png' },
+  { id: 3, category: 'stump-grinding', title: 'Stump Grinding', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png' },
+  { id: 4, category: 'mulching', title: 'Mulching', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/mulch.png' },
+  { id: 5, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-trunk.png' },
+  { id: 6, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-truck.png' },
+  { id: 7, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/tree-removal-stihl.png' },
 ];
 
 export default function ProjectsPage() {
@@ -43,9 +43,8 @@ export default function ProjectsPage() {
           <h1 className="text-6xl md:text-8xl text-white mb-4">OUR WORK SPEAKS VOLUMES</h1>
           <div className="h-1 w-32 bg-rust-orange mx-auto mb-8" />
           <div className="flex justify-center gap-12 text-sawdust-gold font-heading text-2xl">
-            <div>500+ TREES</div>
-            <div>200+ STUMPS</div>
-            <div>ZERO SHORTCUTS</div>
+            <div>ST. LOUIS AREA</div>
+            <div>SINCE 2005</div>
           </div>
         </div>
       </section>
@@ -97,9 +96,9 @@ export default function ProjectsPage() {
                   />
                   <div className="absolute inset-0 bg-steel-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center">
                     <Maximize2 className="text-rust-orange mb-4" size={32} />
-                    <h3 className="text-2xl text-white font-heading tracking-widest mb-2">{project.title}</h3>
-                    <p className="text-sawdust-gold font-heading tracking-widest">{project.location}</p>
-                    <span className="mt-4 text-xs text-morning-mist/60 uppercase tracking-[0.2em]">{project.category.replace('-', ' ')}</span>
+                    <span className="bg-rust-orange text-white text-xs font-heading px-3 py-1 tracking-widest uppercase">
+                      {project.category.replace(/-/g, ' ')}
+                    </span>
                   </div>
                 </motion.div>
               ))}

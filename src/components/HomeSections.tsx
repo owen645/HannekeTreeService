@@ -369,47 +369,23 @@ export const ContactPreview = () => {
 };
 
 export const Testimonials = () => {
-  const reviews = [
-    { name: "Sarah M.", location: "Kirkwood", text: "Matt and his team were incredible. They removed a massive oak that was threatening our home. Fast, professional, and left our yard spotless." },
-    { name: "John D.", location: "Webster Groves", text: "Professional service from start to finish. The stump grinding was precise and they even helped me plan the replanting." },
-    { name: "Mike R.", location: "Ladue", text: "Best tree service in St. Louis. I've used them for trimming and full removals. Always fair pricing and top-notch work." },
-  ];
-
   return (
     <section className="section-padding bg-morning-mist relative overflow-hidden">
       <div className="absolute inset-0 wood-texture opacity-20 pointer-events-none" />
-      
-      <div className="container-custom">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl text-steel-black">THE TRUST</h2>
-          <p className="serif italic text-2xl text-bark-brown mt-2">What our neighbors are saying</p>
-        </div>
-
-        <div className="flex overflow-x-auto gap-8 pb-12 snap-x no-scrollbar">
-          {reviews.map((review, i) => (
-            <div 
-              key={i} 
-              className="min-w-[300px] md:min-w-[450px] bg-white p-10 rounded-sm shadow-xl snap-center relative group"
-            >
-              <div className="absolute top-0 left-0 w-full h-2 bg-rust-orange" />
-              <div className="mb-6 text-rust-orange">
-                {[...Array(5)].map((_, i) => <span key={i} className="text-2xl">★</span>)}
-              </div>
-              <p className="text-xl text-iron-gray italic mb-8 leading-relaxed">
-                "{review.text}"
-              </p>
-              <div>
-                <p className="font-heading text-2xl text-steel-black">— {review.name}</p>
-                <p className="text-sm text-bark-brown uppercase tracking-widest">{review.location}</p>
-              </div>
-              
-              {/* Wood Grain Detail */}
-              <div className="absolute bottom-4 right-4 opacity-10 pointer-events-none">
-                <TreePine size={48} />
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="container-custom text-center">
+        <h2 className="text-5xl text-steel-black mb-4">WHAT PEOPLE ARE SAYING</h2>
+        <div className="h-1 w-24 bg-rust-orange mx-auto mb-8" />
+        <p className="serif italic text-2xl text-bark-brown mb-12">
+          Trusted by homeowners across the St. Louis area since 2005.
+        </p>
+        <a
+          href="https://www.google.com/search?q=Hanneke+Tree+Service+reviews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary inline-flex items-center gap-3"
+        >
+          READ OUR GOOGLE REVIEWS
+        </a>
       </div>
     </section>
   );

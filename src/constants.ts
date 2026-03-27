@@ -64,7 +64,7 @@ export const SERVICES = [
 export const FAQS = [
   {
     question: "How much does tree removal cost?",
-    answer: "Pricing depends on tree size, location, and complexity. Most residential jobs range from $300-$2,500. We offer free on-site estimates with no obligation."
+    answer: "Pricing depends on tree size, location, and complexity. We offer free on-site estimates with no obligation — the best way to get an accurate price is to give us a call."
   },
   {
     question: "Are you fully insured?",
