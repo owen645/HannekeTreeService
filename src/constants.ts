@@ -67,10 +67,6 @@ export const FAQS = [
     answer: "Pricing depends on tree size, location, and complexity. We offer free on-site estimates with no obligation — the best way to get an accurate price is to give us a call."
   },
   {
-    question: "Are you fully insured?",
-    answer: "Yes, Hanneke Tree Service is fully insured for both liability and workers' compensation. We prioritize safety and protect your property at every step."
-  },
-  {
     question: "Do you offer emergency services?",
     answer: "Absolutely. We provide 24/7 emergency storm response for fallen trees or hazardous limbs that threaten your home or safety."
   },
