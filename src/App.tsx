@@ -10,7 +10,6 @@ import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
 import Projects from './pages/Projects';
 import About from './pages/About';
-import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
 const ScrollToTop = () => {
@@ -78,7 +77,6 @@ const AnimatedRoutes = () => {
         <Route path="/services/:slug" element={<ServiceDetail />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
-        <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

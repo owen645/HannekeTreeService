@@ -23,7 +23,6 @@ export const Navbar = () => {
     { name: 'Services', path: '/services' },
     { name: 'Projects', path: '/projects' },
     { name: 'About', path: '/about' },
-    { name: 'FAQ', path: '/faq' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -43,23 +42,49 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className={cn(
-                "font-heading text-lg tracking-widest text-white/80 hover:text-rust-orange transition-colors relative group",
-                location.pathname === link.path && "text-rust-orange"
-              )}
-            >
-              {link.name}
-              <span className={cn(
-                "absolute -bottom-1 left-0 h-[2px] bg-rust-orange transition-all duration-300",
-                location.pathname === link.path ? "w-full" : "w-0 group-hover:w-full"
-              )} />
-            </Link>
+            link.name === 'Services' ? (
+              <div key="services" className="relative group">
+                <Link
+                  to="/services"
+                  className={cn(
+                    "font-heading text-lg tracking-widest text-white/80 hover:text-rust-orange transition-colors relative flex items-center gap-1",
+                    location.pathname.startsWith('/services') && "text-rust-orange"
+                  )}
+                >
+                  Services
+                  <svg className="w-3 h-3 opacity-60 group-hover:rotate-180 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
+                </Link>
+                {/* Dropdown */}
+                <div className="absolute top-full left-0 mt-2 w-52 bg-steel-black border border-rust-orange/20 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  {SERVICES.map((service) => (
+                    <Link
+                      key={service.id}
+                      to={`/services/${service.slug}`}
+                      className="block px-5 py-3 font-heading text-sm tracking-widest text-white/70 hover:text-rust-orange hover:bg-white/5 transition-colors border-b border-white/5 last:border-0"
+                    >
+                      {service.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.name}
+                to={link.path}
+                className={cn(
+                  "font-heading text-lg tracking-widest text-white/80 hover:text-rust-orange transition-colors relative group",
+                  location.pathname === link.path && "text-rust-orange"
+                )}
+              >
+                {link.name}
+                <span className={cn(
+                  "absolute -bottom-1 left-0 h-[2px] bg-rust-orange transition-all duration-300",
+                  location.pathname === link.path ? "w-full" : "w-0 group-hover:w-full"
+                )} />
+              </Link>
+            )
           ))}
           <Link to="/contact" className="btn-primary py-2 px-6 text-lg">
             FREE QUOTE

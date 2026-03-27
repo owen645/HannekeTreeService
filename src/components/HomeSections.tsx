@@ -23,27 +23,6 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-steel-black via-steel-black/60 to-transparent" />
       </div>
 
-      {/* Particles (Simplified) */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden z-10">
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            initial={{ y: -20, x: Math.random() * 100 + '%', opacity: 0 }}
-            animate={{ 
-              y: '110vh', 
-              opacity: [0, 0.4, 0],
-              rotate: 360
-            }}
-            transition={{ 
-              duration: Math.random() * 10 + 10, 
-              repeat: Infinity, 
-              ease: "linear",
-              delay: Math.random() * 10
-            }}
-            className="absolute w-1 h-1 bg-sawdust-gold rounded-full"
-          />
-        ))}
-      </div>
 
       <div className="container-custom relative z-20">
         <motion.div
@@ -307,7 +286,12 @@ export const FAQPreview = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/faq" className="btn-outline">VIEW ALL FAQS</Link>
+          <Link 
+            to="/contact" 
+            className="inline-flex items-center gap-2 font-heading text-xl tracking-widest text-rust-orange hover:text-chainsaw-orange transition-colors"
+          >
+            GOT MORE QUESTIONS? CONTACT US <ArrowRight size={20} />
+          </Link>
         </div>
       </div>
     </section>
