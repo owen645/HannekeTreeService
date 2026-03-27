@@ -41,19 +41,6 @@ const SchemaMarkup = () => {
       "@type": "GeoCoordinates",
       "latitude": 38.5271,
       "longitude": -90.3868
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "opens": "07:00",
-      "closes": "19:00"
     }
   };
 

@@ -99,8 +99,7 @@ export default function AboutPage() {
       {/* Service Area */}
       <section className="section-padding bg-morning-mist">
         <div className="container-custom">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
-            <div className="lg:w-1/2">
+          <div className="max-w-2xl mx-auto">
               <div className="bg-white p-12 rounded-sm shadow-2xl border-t-8 border-rust-orange">
                 <h2 className="text-4xl text-steel-black mb-8">WHERE WE WORK</h2>
                 <div className="grid grid-cols-2 gap-4">
@@ -115,26 +114,6 @@ export default function AboutPage() {
                   <p className="text-iron-gray/60 italic">Don't see your area? Give us a call—we often travel for larger projects.</p>
                 </div>
               </div>
-            </div>
-            <div className="lg:w-1/2 space-y-8">
-              <h3 className="text-4xl">CERTIFIED & INSURED</h3>
-              <p className="text-xl text-iron-gray/70 leading-relaxed">
-                Your peace of mind is our priority. Hanneke Tree Service is fully licensed and insured, meeting all state and local requirements for professional tree care.
-              </p>
-              <div className="space-y-4">
-                {[
-                  "General Liability Insurance",
-                  "Workers' Compensation",
-                  "Licensed St. Louis Contractor",
-                  "Safety Certified Crew"
-                ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-4">
-                    <CheckCircle2 className="text-pine-green" size={24} />
-                    <span className="text-lg font-bold text-steel-black">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
