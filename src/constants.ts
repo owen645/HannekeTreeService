@@ -33,8 +33,8 @@ export const SERVICES = [
     icon: "Scissors",
     description: "Expert pruning to enhance tree health, safety, and aesthetic appeal.",
     shortDesc: "Arborist in tree with professional gear",
-    image: "/images/tree-removal-crane.png",
-    heroImage: "/images/tree-removal-crane.png",
+    image: "/images/trimming-crane-driveway.png",
+    heroImage: "/images/trimming-bucket-lift.png",
     features: ["Crown Thinning", "Deadwooding", "Structural Pruning", "Safety Clearances"]
   },
   {

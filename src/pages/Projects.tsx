@@ -4,13 +4,16 @@ import { Filter, Maximize2, X } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const PROJECTS = [
-  { id: 1, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-crane.png' },
+  { id: 1, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/tree-removal-crane.png' },
   { id: 2, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-log.png' },
   { id: 3, category: 'stump-grinding', title: 'Stump Grinding', src: 'https://hanneketreeservice.com/wp-content/uploads/2023/12/stumpgrinding.png' },
   { id: 4, category: 'mulching', title: 'Mulching', src: '/images/mulching.jpg' },
   { id: 5, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-trunk.png' },
   { id: 6, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-truck.png' },
   { id: 7, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/tree-removal-stihl.png' },
+  { id: 8, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/trimming-crane-driveway.png' },
+  { id: 9, category: 'tree-removal', title: 'Tree Removal', src: '/images/tree-removal-logs.png' },
+  { id: 10, category: 'tree-trimming', title: 'Tree Trimming', src: '/images/trimming-bucket-lift.png' },
 ];
 
 export default function ProjectsPage() {

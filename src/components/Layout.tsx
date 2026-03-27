@@ -182,7 +182,6 @@ export const Footer = () => {
           <ul className="space-y-4">
             <li><Link to="/about" className="hover:text-rust-orange transition-colors">About Our Legacy</Link></li>
             <li><Link to="/projects" className="hover:text-rust-orange transition-colors">Past Projects</Link></li>
-            <li><Link to="/faq" className="hover:text-rust-orange transition-colors">Common Questions</Link></li>
             <li><Link to="/contact" className="hover:text-rust-orange transition-colors">Get A Free Quote</Link></li>
           </ul>
         </div>
@@ -208,12 +207,8 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="container-custom mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-50">
+      <div className="container-custom mt-20 pt-8 border-t border-white/10 flex items-center justify-center text-sm opacity-50">
         <p>© {new Date().getFullYear()} Hanneke Tree Service. All Rights Reserved.</p>
-        <div className="flex gap-8">
-          <Link to="/privacy">Privacy Policy</Link>
-          <Link to="/terms">Terms of Service</Link>
-        </div>
       </div>
     </footer>
   );
